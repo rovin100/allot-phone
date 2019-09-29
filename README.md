@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version - ruby-2.4.1
 
-Things you may want to cover:
+* Database - sqlite3
 
-* Ruby version
+* Generate Random Phone Number - curl -X POST http://localhost:3001/phone_number -H 'Content-Type: application/json'
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Generate Fancy Number - curl -X POST http://localhost:3001/phone_number -H 'Content-Type: application/json' -d '{"phone":"111-111-1111"}'
