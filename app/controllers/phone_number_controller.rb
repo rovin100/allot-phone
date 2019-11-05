@@ -17,11 +17,7 @@ class PhoneNumberController < ApplicationController
 	end
 
 	def random_number
-		number = rand(9)
-		while(number == 0) # Skip 0 digit
-			number = rand(9)
-		end
-		number
+		rand(9)
 	end
 
 end
